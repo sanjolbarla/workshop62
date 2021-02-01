@@ -1,10 +1,10 @@
 {
-    "serviceName":"workshop62-service",
-    "taskDefinition":"ws62-task",
+    "serviceName":"ws62-service1",
+    "taskDefinition":"ws62-task1",
     "loadBalancers":[
         {
-            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:940501381845:targetgroup/workshop62-target-group/b649a50e5fc6aeb1",
-            "containerName":"workshop62-container",
+            "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:940501381845:targetgroup/ws62-target1/9f5ec4cad01be958",
+            "containerName":"ws62-container1",
             "containerPort":3000
         }
     ],

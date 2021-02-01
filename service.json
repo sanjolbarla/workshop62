@@ -1,6 +1,6 @@
 {
     "serviceName":"workshop62-service",
-    "taskDefinition":"workshop62-task",
+    "taskDefinition":"ws62-task",
     "loadBalancers":[
         {
             "targetGroupArn":"arn:aws:elasticloadbalancing:us-east-2:940501381845:targetgroup/workshop62-target-group/b649a50e5fc6aeb1",

@@ -8,4 +8,4 @@ FROM node:8-alpine
 
 COPY --from-build /app /
 EXPOSE 3000
-CMD ["npm","start"]
+CMD ["node","index.js"]
